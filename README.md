@@ -19,16 +19,8 @@ Multiprocessing can be symmetric or asymmetric.
 "The multiprocessing library in Python uses separate memory space, multiple CPU cores, bypasses GIL limitations in CPython, child processes are killable (ex. function calls in program) and is much easier to use.
 Some caveats of the module are a larger memory footprint and IPC’s a little more complicated with more overhead".
 
-#
-MULTIPROCESSING
 
-Multiprocessing adds CPUs to increase computing power.
-Multiple processes are executed concurrently.
-Creation of a process is time-consuming and resource intensive.
-Multiprocessing can be symmetric or asymmetric.
-The multiprocessing library in Python uses separate memory space, multiple CPU cores, bypasses GIL limitations in CPython, child processes are killable (ex. function calls in program) and is much easier to use.
-Some caveats of the module are a larger memory footprint and IPC’s a little more complicated with more overhead.
-MULTITHREADING
+#MULTITHREADING
 
 Multithreading creates multiple threads of a single process to increase computing power.
 Multiple threads of a single process are executed concurrently.
